@@ -1,0 +1,9 @@
+{
+  "repo_name": "repo_name",
+  "app_name": "app_name",
+  "main_file_name": "App",
+  "server_type": {
+    "choices": ["uwsgi", "gunicorn","uvicorn"],
+    "default": "uvicorn"
+  }
+}
